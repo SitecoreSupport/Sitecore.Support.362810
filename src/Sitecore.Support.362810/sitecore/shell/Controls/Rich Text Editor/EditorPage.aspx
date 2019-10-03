@@ -116,7 +116,8 @@
       return false;
     }
 
-    function OnClientInit(editor) {
+      function OnClientInit(editor) {
+        //Fix Sitecore.Support.362810
       Telerik.Web.UI.Editor.WordListConverter.prototype.convert = function(e) {
     var t = Telerik.Web.UI.Editor,
         l = $telerik.$;
@@ -165,7 +166,8 @@
         this.removeOriginalElements(o), this.removeListsIds(r)
     }
     return this.removeMarkers(r), r.innerHTML
-};
+          };
+        //Fix end
     }
 
     function OnClientModeChange(editor, args) {
