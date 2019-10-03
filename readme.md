@@ -1,5 +1,5 @@
 # Sitecore.Support.362810
-Patch fixes the impossibility of pasting certain formatted text into Rich Text Editor.
+Patch fixes the impossibility of pasting certain formatted text from Word into Rich Text Editor.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.362810/blob/master/LICENSE).  
